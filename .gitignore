@@ -1,0 +1,23 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+.env/
+venv/
+.venv/
+*.egg-info/
+*.eggs/
+dist/
+build/
+*.log
+
+# VSCode
+.vscode/
+
+# Dataset
+IPN_Hand/
+
+# MediaPipe configurations
+*.task
