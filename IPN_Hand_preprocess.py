@@ -13,7 +13,7 @@ from os.path import isdir, exists
 
 class Data:
     def recreate(self, data_size):
-        self.data = [None for i in range(data_size)]#np.array([[0 for _ in range(21 * 2)] for i in range(data_size)])
+        self.data = [None for i in range(data_size)]
         self.in_process = 0
 
 
